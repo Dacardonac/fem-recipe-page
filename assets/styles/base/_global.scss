@@ -1,3 +1,10 @@
 body {
-  
+  background-color: var(--stone-100);
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
 }

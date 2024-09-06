@@ -3,32 +3,50 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Frontend Mentor Challenge to practice HTML and CSS" />
+  <meta name="keywords" content="Frontend, Frontendmentor, HTML, CSS, Vite, Sass, Challenge, Card, Daniel, Alejandro, Cano, Cardona" />
+  <meta name="sitedomain" content="https://example.com/" />
+  <meta name="organization" content="Frontend Mentor" />
+  <meta name="author" content="Daniel Alejandro Cano Cardona" />
+  <meta name="designer" content="Frontend Mentor" />
+  <meta name="copyright" content="© 2024 Frontend Mentor. All rights reserved" />
+  <meta name="robots" content="index,follow" />
+  <meta name="googlebot" content="index,follow" />
+  <meta name="revisit-after" content="15days" />
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Young+Serif:wght@400&display=swap" rel="stylesheet">
-  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
   <link rel="stylesheet" href="./assets/styles/main.scss">
-
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
   <title>Frontend Mentor | Recipe page</title>
 
 </head>
 <body>
   <main>
-    Simple Omelette Recipe
-
-  An easy and quick dish, perfect for any meal. This classic omelette combines beaten eggs cooked
-  to perfection, optionally filled with your choice of cheese, vegetables, or meats.
-
-  Preparation time
-
-  Total: Approximately 10 minutes
-  Preparation: 5 minutes
-  Cooking: 5 minutes
-
-  Ingredients
-
-  2-3 large eggs
+  <section class="card">
+    <figure>
+      <img class="card__image" src="./assets/images/image-omelette.jpeg" alt="Simple Omelette Recipe">
+    </figure>
+    <h1 class="card__title">Simple Omelette Recipe</h1>
+    <p class="card__description">
+      An easy and quick dish, perfect for any meal. This classic omelette combines beaten eggs cooked
+      to perfection, optionally filled with your choice of cheese, vegetables, or meats.
+    </p>
+    <article class="card__preparation">
+      <p class="card__preparation__title">Preparation time</p>
+      <ul class="card__preparation__list">
+        <li class="card__preparation__list__li"><span class="card__preparation__list__span">Total:</span> Approximately 10 minutes</li>
+        <li class="card__preparation__list__li"><span class="card__preparation__list__span">Preparation:</span> 5 minutes</li>
+        <li class="card__preparation__list__li"><span class="card__preparation__list__span">Cooking:</span> 5 minutes</li>
+      </ul>
+    </article>
+  </section>
+  <!--  -->
+  <!-- <article class="card__ingredients">
+    <h2>Ingredients</h2>
+  </article> -->
+  <!-- 2-3 large eggs
   Salt, to taste
   Pepper, to taste
   1 tablespoon of butter or oil
@@ -66,7 +84,7 @@
   20g
 
   Fat
-  22g
+  22g -->
   </main>
   <footer class="footer">
     <div class="footer__attribution">
