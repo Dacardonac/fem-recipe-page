@@ -1,4 +1,5 @@
 .article {
+  font-size: 13px;
   &__title {
     font-family: var(--font-young-serif);
     color: var(--brown-800);
@@ -13,8 +14,11 @@
     &__li {
       padding: 6px 10px 0 10px;
       line-height: 19px;
-      font-size: 13px;
       color: var(--stone-600);
+    }
+
+    &__span {
+      font-weight: 700;
     }
 
     &__li::marker {
