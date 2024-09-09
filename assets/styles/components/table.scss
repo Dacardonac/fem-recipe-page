@@ -16,7 +16,7 @@
   }
 
   &__text {
-    padding: 0.375rem 0.625rem 0.625rem 0;
+    padding: 0.375rem 0.625rem 0.625rem 0.313rem;
     color: var(--stone-600);
     text-align: left;
     border-bottom: 0.063rem solid var(--stone-150);
@@ -31,7 +31,7 @@
   }
 
   &__text--border-hidden {
-    padding: 0.313rem 0.625rem 0.625rem 0;
+    padding: 0.313rem 0.625rem 0.625rem 0.313rem;
     color: var(--stone-600);
     text-align: left;
     border: none;
