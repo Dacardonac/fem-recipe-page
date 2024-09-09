@@ -1,7 +1,11 @@
+@use '../utils/mixins' as *;
+
 .footer {
+  margin: 1.563rem;
+
   &__attribution {
-    font-size: 11px;
-    font-family: var(--font-outfit);
+    font-size: 0.688rem;
+    @include font-outfit;
     font-weight: 700;
     text-align: center;
   }
