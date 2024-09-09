@@ -2,11 +2,13 @@
   max-width: 300px;
   background-color: var(--white);
   font-family: var(--font-outfit);
+  user-select: none;
 
   &__image {
     width: 100%;
     height: auto;
     object-fit: cover;
+    cursor: pointer;
   }
 
   &__title {
@@ -16,6 +18,7 @@
     font-size: 28.8px;
     line-height: 1.8rem;
     padding: 1.7rem 1.6rem 1.2rem 1.6rem;
+    user-select: text;
   }
 
   &__description {
@@ -23,6 +26,7 @@
     font-size: 12.8px;
     line-height: 1.2rem;
     padding: 0rem 1.6rem 0 1.6rem;
+    user-select: text;
   }
 
   &__preparation {
@@ -30,6 +34,7 @@
     padding: 19px;
     background-color: var(--rose-50);
     border-radius: 10px;
+    user-select: text;
 
     &__title {
       color: var(--rose-800);

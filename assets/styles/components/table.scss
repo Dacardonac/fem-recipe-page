@@ -1,0 +1,31 @@
+.table {
+  width: 100%;
+  max-width: 200px;
+  padding: 0 20px 20px;
+  margin: auto;
+  user-select: text;
+
+  &__tr {
+    border: 1px solid #000000 !important; /* Línea entre filas */
+  }
+
+  &__values {
+    padding: 20px 0 0 25px;
+    color: var(--brown-800);
+    font-weight: 700;
+    text-align: left; /* Alinea a la derecha los valores */
+  }
+
+  &__text {
+    padding: 10px 25px 0 0;
+    color: var(--stone-600);
+    text-align: left; /* Alinea a la izquierda el texto */
+  }
+
+}
+
+.paragraph {
+  padding: 15px 25px 15px 25px;
+  line-height: 19px;
+  color: var(--stone-600);
+}

@@ -1,4 +1,5 @@
 .article {
+  user-select: text;
   font-size: 13px;
   &__title {
     font-family: var(--font-young-serif);
