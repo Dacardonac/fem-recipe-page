@@ -5,3 +5,9 @@
   margin: 1.563rem auto;
   width: 80%;
 }
+
+@media (min-width: 1440px) {
+  .separator {
+    width: 100%;
+  }
+}

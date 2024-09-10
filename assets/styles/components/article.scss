@@ -46,3 +46,23 @@
     }
   }
 }
+
+@media (min-width: 1440px) {
+  .article {
+    &__title {
+      padding: 0 0 1rem 0;
+    }
+
+    &__paragraph {
+      padding: 0;
+    }
+
+    &__list {
+      padding: 0 0 0 1.25rem;
+
+      &--ordered {
+        padding: 0 0 0 1.25rem;
+      }
+    }
+  }
+}

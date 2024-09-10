@@ -2,6 +2,7 @@
 
 .card {
   max-width: 18.75rem;
+  margin: 50px auto;
   background-color: var(--white);
   @include font-outfit;
   user-select: none;
@@ -58,7 +59,7 @@
       font-weight: 700;
     }
 
-    &__item::marker {
+    &-item::marker {
       color: var(--rose-800);
       font-size: 0.625rem;
       align-items: center;
@@ -67,5 +68,26 @@
 }
 
 @media (min-width: 1440px) {
+  .card {
+    max-width: 36.9rem;
+    padding: 2rem 2rem 0.4rem 2rem;
+    border-radius: 1.125rem;
 
+    &__image {
+      border-radius: 0.625rem;
+    }
+
+    &__title {
+      font-size: 2rem;
+      padding: 1.875rem 0 1.25rem;
+    }
+
+    &__description {
+      padding: 0 ;
+    }
+
+    &__preparation {
+      margin: 1.25rem 0;
+    }
+  }
 }
