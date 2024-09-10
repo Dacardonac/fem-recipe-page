@@ -23,17 +23,10 @@
   }
 
   &__values--border-hidden {
-    padding: 0.313rem 0 0.625rem 0.625rem;
-    color: var(--brown-800);
-    font-weight: 700;
-    text-align: left;
     border: none;
   }
 
   &__text--border-hidden {
-    padding: 0.313rem 0.625rem 0.625rem 0.313rem;
-    color: var(--stone-600);
-    text-align: left;
     border: none;
   }
 }

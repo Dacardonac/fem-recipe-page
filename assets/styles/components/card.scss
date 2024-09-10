@@ -38,34 +38,34 @@
     border-radius: 0.625rem;
     user-select: text;
 
-    &__title {
+    &-title {
       color: var(--rose-800);
       font-weight: 700;
     }
+  }
 
-    &__list {
-      font-size: 0.813rem;
-      padding: 0.313rem 1.5rem 0 1.5rem;
+  &__list {
+    font-size: 0.813rem;
+    padding: 0.313rem 1.5rem 0 1.5rem;
 
-      &__li {
-        padding: 0.438rem 0.625rem 0 0.625rem;
-        line-height: 1.188rem;
-      }
+    &-item {
+      padding: 0.438rem 0.625rem 0 0.625rem;
+      line-height: 1.188rem;
+    }
 
-      &__span {
-        color: var(--stone-600);
-        font-weight: 700;
-      }
+    &-item--highlight {
+      color: var(--stone-600);
+      font-weight: 700;
+    }
 
-      &__li::marker {
-        color: var(--rose-800);
-        font-size: 0.625rem;
-        align-items: center;
-      }
+    &__item::marker {
+      color: var(--rose-800);
+      font-size: 0.625rem;
+      align-items: center;
     }
   }
 }
 
 @media (min-width: 1440px) {
-  
+
 }
